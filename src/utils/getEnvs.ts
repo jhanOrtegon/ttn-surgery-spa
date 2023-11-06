@@ -1,10 +1,10 @@
 export const getEnvs = () => {
 	// Medical
-	const URL_PROTOCOL = process.env.NEXT_PUBLIC_URL_PROTOCOL;
-	const URL_BASE = process.env.NEXT_PUBLIC_URL_BASE;
-	const URL_GATEWAY = process.env.NEXT_PUBLIC_URL_GATEWAY;
-	const API_VERSION = process.env.NEXT_PUBLIC_API_VERSION;
-	const URL_MEDICAL = process.env.NEXT_PUBLIC_URL_MEDICAL;
+	const URL_PROTOCOL = 'https://';
+	const URL_BASE = 'ttntest.biowel.com.co';
+	const URL_GATEWAY = '/gateway-web';
+	const API_VERSION = '/api/v1';
+	const URL_MEDICAL = '/medical'
 
 	return {
 		URL_BASE,
