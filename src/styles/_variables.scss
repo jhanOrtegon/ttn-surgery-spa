@@ -1,0 +1,68 @@
+// Color palette
+$turquoise_100: #00B4CC;
+$turquoise_80: #1ABCD2;
+$turquoise_60: #5CCFDE;
+$turquoise_40: #A3E4EC;
+$turquoise_20: #D6F3F7;
+$turquoise_10: #E6F8FA;
+$turquoise_5: #F5FCFD;
+
+$darkblue_100: #003F80;
+$darkblue_80: #1A538D;
+$darkblue_60: #5C84AD;
+$darkblue_40: #A3BAD1;
+$darkblue_20: #D6E0EB;
+$darkblue_10: #E6ECF3;
+$darkblue_5: #F5F7FA;
+
+$gray_100: #6E6F7C;
+$gray_60: #A2A3AB;
+$gray_40: #CBCBD0;
+$gray_20: #E8E8EA;
+$gray_5: #F9F9FA;
+
+$red_100: #F39682;
+$red_80: #F7B4A5;
+$red_40: #FCE7E1;
+$red_20: #FEF7F5;
+
+$orange_100: #F3C682;
+$orange_80: #F7D6A5;
+$orange_40: #FCF1E1;
+$orange_20: #FEFAF5;
+
+$yellow_100: #F3E882;
+$yellow_80: #F7EFA5;
+$yellow_40: #FCF9E1;
+$yellow_20: #FEFDF5;
+
+$green_100: #83C036;
+$green_80: #BCE082;
+$green_60: #CFE9AD;
+$green_40: #EFF8E4;
+$green_20: #FAFDF6;
+
+$white: #FFFFFF;
+$black: #000000;
+
+// App colors
+$primary_color: $turquoise_100;
+$secondary_color: $darkblue_100;
+$muted_color: $gray_100;
+$danger_color: $red_100;
+$warning_color: $orange_100;
+$highlight_color: $yellow_100;
+$success_color: $green_100;
+
+// Bootstrap colors override
+$primary: $primary_color;
+$secondary: $secondary_color;
+$success: $success_color;
+$warning: $warning_color;
+$danger: $danger_color;
+
+$box_shadow: 0 12px 42px -10px rgba(#999, 0.5);
+
+$border_radius_small: .3rem;
+$border_radius_normal: .4rem;
+$border_radius_large: 1rem;

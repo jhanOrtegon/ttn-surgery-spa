@@ -1,0 +1,41 @@
+import { type IContract } from '.';
+
+export interface IPatient {
+	address_zone?: string;
+	affiliationTypeId?: number;
+	affiliationTypeName?: string;
+	age?: string;
+	alert?: string;
+	alertId?: number;
+	birthDate?: string;
+	bloodType?: string;
+	cellphone?: string;
+	cityId?: number;
+	cityName?: string;
+	contracts?: IContract[];
+	docType?: string;
+	docTypeDesc?: string;
+	docTypeId?: number;
+	document?: string;
+	email?: string;
+	emergencyContact?: string;
+	firstName?: string;
+	gender?: string;
+	homeAddress?: string;
+	homephone?: string;
+	id?: number;
+	lastName?: string;
+	maritalStatus?: string;
+	neighborhood?: string;
+	notes_num?: number;
+	ocupation?: string;
+	otherNames?: string;
+	provinceId?: number;
+	provinceName?: string;
+	secondSurname?: string;
+	urlPhoto?: string;
+	use_contact_lens?: string;
+	use_glasses?: string;
+	webscrapperValidated?: number;
+	whatsapp?: string;
+}

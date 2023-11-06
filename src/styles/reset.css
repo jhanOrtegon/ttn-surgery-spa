@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input[type='number']::-webkit-outer-spin-button,
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number'] {
+        appearance:none;
+        -webkit-appearance: none;
+        margin: 0;
+        -moz-appearance: textfield !important;
+    }
+}
+
+.customLoading {
+   opacity: 0.6;
+   filter: blur(1.4px);
+   pointer-events: none;
+ }
+
+.swal2-container  .customAlertBtnConfirm:focus,
+.swal2-container .customAlertBtnCancel:focus{
+   box-shadow: none;
+}
+
+.swal2-container .customAlertBtnConfirm{
+   background-color: #00B4CC;
+   border: 1px solid #00B4CC;
+}
+
+.swal2-container .customAlertBtnCancel{
+   background-color: #fff;
+   color: #00B4CC;
+   border: 1px solid #00B4CC;
+}
+
+.swal2-container .customAlertBtnCancel:hover{
+   color: #fff;
+   background-color: #00B4CC;
+}
+
+.swal2-container .customAlertBtnCancel:active{
+   background-image: none !important;
+ }
